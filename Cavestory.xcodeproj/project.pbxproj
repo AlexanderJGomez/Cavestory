@@ -88,7 +88,7 @@
 			children = (
 				BC3EBB0E1C29F8F600A7C449 /* SDL2_image.framework */,
 				BC3EBB0C1C29F8C400A7C449 /* SDL2.framework */,
-				BC3EBAF81C29F87000A7C449 /* agario attempt */,
+				BC3EBAF81C29F87000A7C449 /* cavestory */,
 				BC3EBAF71C29F87000A7C449 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,13 +101,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3EBAF81C29F87000A7C449 /* agario attempt */ = {
+		BC3EBAF81C29F87000A7C449 /* cavestory */ = {
 			isa = PBXGroup;
 			children = (
 				BC3EBAF91C29F87000A7C449 /* main.cpp */,
 				BC3EBB6E1C38591900A7C449 /* headers */,
 				BC3EBB6D1C38590E00A7C449 /* src */,
 			);
+			name = cavestory;
 			path = "agario attempt";
 			sourceTree = "<group>";
 		};

@@ -37,7 +37,7 @@ void Level::loadMap(std::string mapName, Graphics &graphics) {
 
     XMLDocument doc;
     std::stringstream ss;
-    ss << "/Users/alexgomez/git/agario attempt/content/maps/" << mapName << ".tmx";
+    ss << "/Users/alexgomez/git/cavestory/content/maps/" << mapName << ".tmx";
     doc.LoadFile(ss.str().c_str());
     
     XMLElement* mapNode = doc.FirstChildElement("map");

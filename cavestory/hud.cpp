@@ -13,12 +13,12 @@ HUD::HUD() {}
 
 HUD::HUD(Graphics &graphics, Player &player) {
     this->_player = player;
-    this->_healthBarSprite = Sprite(graphics, "/Users/alexgomez/git/agario attempt/content/sprites/TextBox.png", 0, 40, 64, 8, 35, 70);
-    this->_healthNumber1 = Sprite(graphics, "/Users/alexgomez/git/agario attempt/content/sprites/TextBox.png", 0, 56, 8, 8, 66, 70);
-    this->_currentHealthBar = Sprite(graphics, "/Users/alexgomez/git/agario attempt/content/sprites/TextBox.png", 0, 25, 39, 5, 83, 72);
-    this->_lvWord = Sprite(graphics, "/Users/alexgomez/git/agario attempt/content/sprites/TextBox.png", 81, 81, 11, 7, 38, 55);
-    this->_lvNumber = Sprite(graphics, "/Users/alexgomez/git/agario attempt/content/sprites/TextBox.png", 0, 56, 8, 8, 66, 52);
-    this->_expBar = Sprite(graphics, "/Users/alexgomez/git/agario attempt/content/sprites/TextBox.png", 0, 72, 40, 8, 83, 52);
+    this->_healthBarSprite = Sprite(graphics, "/Users/alexgomez/git/cavestory/content/sprites/TextBox.png", 0, 40, 64, 8, 35, 70);
+    this->_healthNumber1 = Sprite(graphics, "/Users/alexgomez/git/cavestory/content/sprites/TextBox.png", 0, 56, 8, 8, 66, 70);
+    this->_currentHealthBar = Sprite(graphics, "/Users/alexgomez/git/cavestory/content/sprites/TextBox.png", 0, 25, 39, 5, 83, 72);
+    this->_lvWord = Sprite(graphics, "/Users/alexgomez/git/cavestory/content/sprites/TextBox.png", 81, 81, 11, 7, 38, 55);
+    this->_lvNumber = Sprite(graphics, "/Users/alexgomez/git/cavestory/content/sprites/TextBox.png", 0, 56, 8, 8, 66, 52);
+    this->_expBar = Sprite(graphics, "/Users/alexgomez/git/cavestory/content/sprites/TextBox.png", 0, 72, 40, 8, 83, 52);
 }
 
 void HUD::update(int elapsedTime) {
